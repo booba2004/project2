@@ -1,0 +1,133 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 45px;
+    font-weight: bold;
+  position: sticky;
+
+  padding-bottom: 20px; top: 0;       /* Приклеивается к самому верху экрана */
+  z-index: 9999; /* Чтобы шапка была поверх остальных элементов страницы */
+  width: 100%;
+
+}
+.head{
+    display: flex;
+  gap: 20px;
+   font-weight:normal;
+   font-size: 15px;
+   justify-content: top;
+   
+}
+.head1{
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    margin: 0;
+}
+.body{
+    margin-left: 40px;
+margin-right: 40px;
+}
+
+.catalog{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+.nal{
+    font-size: 80%;
+    color: red;
+}
+.cosh{
+  display: inline-block; 
+  background-image: url('img/free-icon-basket-7086260.png');
+background-size: cover;
+background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+    transition: 0.5s ease;
+}
+  .cosh:hover{
+    background-image: url(img/free-icon-basket-7087821.png);
+  }
+
+.foto{
+    background-image: url(img/1-1-1000x1283.webp);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+.foto2{
+    background-image: url(img/1-1000x1250.webp);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+.foto3{
+    background-image: url(img/кепка_2-1000x1250.webp);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+.foto4{
+    background-image: url(img/4д_футб_1-1000x1250.webp);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+.foto5{
+       background-image: url(img/hoodie.webp);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+        filter: blur(10px);
+}
+.foto6{
+    background-image: url(img/ведьмак_футб_бел_1-1000x1250.webp);
+     height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+.card{
+    margin-right: 20PX;
+    margin-top: 20px;
+}
+.name{
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 80%;
+}
+.cost{
+      font-size: 80%;
+ margin-top: 3px;
+}
+
+.foto:hover{
+    background-image: url(img/2-1-1000x1283.webp);
+    transition: 0.2s;cursor: pointer;
+}
+.foto2:hover{
+    background-image: url(img/2-1000x1250.webp);    transition: 0.2s; cursor: pointer;
+}
+.foto3:hover{
+    background-image: url(img/кепка_1-1000x1250.webp);    transition: 0.2s;cursor: pointer;
+}
+.foto4:hover{
+    background-image: url(img/4д_футб_2-1000x1250.webp);    transition: 0.2s ;cursor: pointer;
+}
+.foto6:hover{
+        background-image: url(img/ведьмак_футб_бел_2-1000x1250.webp);    transition: 0.2s ;cursor: pointer;
+
+}
+footer{
+    margin-top: 20px;
+    background-color: black;
+    margin-left: 0;
+    width: 100%;
+    color: aliceblue;
+}
